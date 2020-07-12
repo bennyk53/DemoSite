@@ -1,0 +1,10 @@
+.card {
+    width: 200px;
+    margin: 20px;
+    background-color: darkgrey;
+}
+
+.row {
+    margin-left: 72px;
+    /*display: flex;*/
+  }

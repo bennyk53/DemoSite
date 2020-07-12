@@ -1,0 +1,30 @@
+.formContainer{
+    padding: 20px;
+}
+
+.form-control{
+    width: 700px;
+    border: none;
+    border-bottom:  1px solid white;
+    margin-bottom: 15px;
+
+}
+
+.form-control-textbox{
+    width: 700px;
+    border: none;
+    border-bottom:  1px solid white;
+    margin-bottom: 15px;
+    height: 100px;
+}
+
+.submit{
+    background: white;
+    margin-top: 10px;
+    width: 100px;
+}
+
+.submit:hover{
+    background: yellow;
+    cursor: pointer;
+}

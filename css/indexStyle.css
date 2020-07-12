@@ -1,0 +1,55 @@
+body{
+    background-color: black;
+    overflow-x: hidden;
+}
+
+.carousel-inner img {
+    margin: auto;
+    padding: 10px;
+}
+
+.carousel-indicators {
+    bottom: -50px;
+}
+
+
+.centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+.centerLogo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 30%;
+}
+
+h1{
+    color:white;
+}
+
+.jumbotron{
+    background-color: black;
+}
+
+footer {
+    background-color: rgb(51, 51, 51);
+}
+
+.columnFooter {
+    padding: 20px;
+}
+
+p.title{
+    color: white;
+    font-size: medium;
+    padding: 10px;
+}
+
+h3{
+    color: white;
+}
