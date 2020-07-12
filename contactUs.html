@@ -12,6 +12,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
 
+        <?php include("php/contactForm.php"); ?>
+
     </head>
 
     <body>
@@ -52,7 +54,7 @@
         <br>
 
         <div class="formContainer">
-            <form id="contact-form" method="POST" action="php/contactForm.php">
+            <form id="contact-form" method="POST" action="contactForm.php">
                 <input name="name" type="text" class="form-control" placeholder="Name" required>
                 <input name="email" type="email" class="form-control" placeholder="Email" required>
                 <input name="subject" type="text" class="form-control" placeholder="Subject" required>
