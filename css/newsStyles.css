@@ -1,20 +1,19 @@
 .row {
+  width: auto-fit;
     margin-left: 20px;
     margin-right: 20px;
   }
 
   .columnArticlePic {
-    flex: 6%;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 20px;
+    padding: 20px;
     background-color: yellow;
   }
 
   .columnWords {
-    flex: 85%;
     padding-top: 20px;
-    background-color: yellow;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: fill;
   }
 
   .centerPageButtons{
@@ -22,4 +21,8 @@
     margin-left: auto;
     margin-right: auto;
     width: 20%;
+  }
+
+  a.art{
+    color: yellow;
   }

@@ -35,20 +35,21 @@
     background-color: yellow;
     padding: 10px;
   }
+  
   .grid-item-header {
     background-color: darkgray;
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 40px;
+    border: 1px solid rgba(0, 0, 0);
+    padding: 5px;
+    font-size: 20px;
     text-align: center;
     font-weight: bold;
   }
 
   .grid-item {
-    background-color: rgba(255, 255, 255, 0.8);
+    background-color: rgba(255, 255, 255);
     border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
-    font-size: 30px;
+    padding: 5px;
+    font-size: 20px;
     text-align: center;
   }
 
