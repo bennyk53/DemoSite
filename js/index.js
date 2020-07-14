@@ -10,7 +10,7 @@ function plain(image) {
 }
 
 function img1on(image) {
-	var newImage = "img/players.jpg";
+	var newImage = "img/players.JPG";
 	image.src = newImage;
 			
 }
